@@ -511,6 +511,7 @@ container, use
 juju ssh <container>
 ~~~
 
+
 Common causes for a problem like this are a wrong DNS configuration (check
 /etc/resolv.conf in an affected container), not enough disk space or not
 enough free leases in the DHCP pool (check dhcp log on the deploy VM) or some
