@@ -1,0 +1,11 @@
+{% for page in site.pages %}
+  {% if page.on_front == true %}
+<div class="post-short">
+  <h4>
+    <a href="{{ page.url }}">{{ page.title | remove: 'guide.' }}</a>
+    <small>{{ page.date | date: '%F' }}</small>
+  </h4>
+  <p>{{ page.description }}</p>
+</div>
+  {% endif %}
+{% endfor %}
