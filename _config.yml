@@ -18,6 +18,9 @@ noita:
     name: Michael Grüner
     url: https://mgruener.github.io/
   lang: en
+  stylesheets:
+    - /syntax/pygments-friendly.css
+    - /syntax/hide-code-scrollbar.css
   favicons:
     - /assets/2014/04/21/favicon-152.png
   topbar:
