@@ -13,7 +13,7 @@ found a bit lacking in detail.
 Installing The Canonical Distribution of Ubuntu OpenStack - Extended
 ====================================================================
 
-0. Introduction
+Introduction (0)
 ---------------
 Canonical provides a short guide on how to use their tools (MAAS, Juju,
 Landscape) to quickly set up a fully functional OpenStack [UbuntuOpenStack][].
@@ -32,8 +32,8 @@ resources you absolutely need, how to structure your virtual networks and how
 to configure your VMs so everything works as intended. And what to consider
 when configuring the tools described in the original guide.
 
-1. Preparation
---------------
+Preparation (1)
+---------------
 
 ### 1.1 Hardware requirements
 
@@ -126,8 +126,8 @@ The cattle systems are just a bunch of identical VMs. The automation tools
 With these VMs in place and the networks set up as described, we can go on the
 the next step: setting up the deployment VM.
 
-2. Base setup of the deployment VM
-----------------------------------
+Base setup of the deployment VM (2)
+-----------------------------------
 
 The base setup of the deployment VM only consists of two simple steps: setting
 up the network and adding all the necessary repositories.
@@ -194,8 +194,8 @@ sudo add-apt-repository ppa:cloud-installer/stable
 sudo apt update
 ~~~
 
-3. MAAS setup
--------------
+MAAS setup (3)
+--------------
 
 ### 3.1 Preparation
 Start by installing the required packages on the deployment VM.
@@ -399,8 +399,8 @@ To complete the commissioning process, select all nodes and perform the
 VMs and perform the necessary commissioning steps. After that all nodes should
 have the status set to "Ready".
 
-4. Ubunut Landscape setup
--------------------------
+Ubunut Landscape setup (4)
+--------------------------
 
 With MAAS all set up and all availabled systems commissioned and ready to use,
 the next step is to set up Juju and Landscape. Juju is the actual "brains" that
@@ -435,8 +435,8 @@ this process can take 20 minutes or longer.
 At the end of the process you will be given the URL to the Landscape server.
 Open the URL and log in.
 
-5. - 11. OpenStack Installation
-----------------------
+OpenStack Installation (5-11)
+-----------------------------
 
 To install the actual OpenStack just follow steps 5 to 11 of the original
 guide. There are only to things to consider when it comes to step 8:
