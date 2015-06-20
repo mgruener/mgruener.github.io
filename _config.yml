@@ -1,4 +1,4 @@
-markdown: kramdown
+markdown: redcarpet
 permalink: /blog/:year/:title/
 relative_permalinks: true
 exclude:
