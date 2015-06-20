@@ -6,6 +6,8 @@ exclude:
   - CNAME
   - LICENSE.noita
   - README.md
+  - Gemfile
+  - Gemfile.lock
 
 layouts: ./_noita
 
