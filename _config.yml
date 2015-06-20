@@ -26,6 +26,8 @@ noita:
         url: /repos/
       - name: Blog
         url: /blog/
+      - name: Guides / HOWTOs
+        url: /guides/
       - name: Github
         url: https://github.com/mgruener/
         class: small button
