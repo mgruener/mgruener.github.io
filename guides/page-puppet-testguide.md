@@ -831,3 +831,10 @@ automated testing and published it for others to find, use and criticize.
   [RspecPuppetTutorial]: http://rspec-puppet.com/tutorial/ "rspec-puppet Tutorial"
   [PublishingModulesonthePuppetForge]: https://docs.puppetlabs.com/puppet/latest/reference/modules_publishing.html
   [PuppetForgeSignup]: https://forge.puppetlabs.com/signup
+
+License
+-------
+Author: Michael Grüner <michael.gruener@chaosmoon.net>
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/.

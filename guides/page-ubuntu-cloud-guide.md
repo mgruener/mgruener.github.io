@@ -525,3 +525,10 @@ reasons, just abort the installation in Landscape and start it again.
   [UbuntuOpenStack]: http://www.ubuntu.com/download/cloud/install-ubuntu-openstack
   [NestedKVM]: http://docs.openstack.org/developer/devstack/guides/devstack-with-nested-kvm.html
   [cattle]: http://jturgasen.github.io/2014/10/25/pets-vs-cattle/
+
+License
+-------
+Author: Michael Grüner <michael.gruener@chaosmoon.net>
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/.
