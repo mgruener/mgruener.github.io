@@ -3,7 +3,8 @@ title: guide.Ubuntu Cloud Guide
 layout: page
 permalink: /page-ubuntu-cloud-guide/
 on_front: true
-description: "A guide based on Ubuntus original "Install Ubuntu OpenStack"
+description: "
+A guide based on Ubuntus original "Install Ubuntu OpenStack"
 guide (http://www.ubuntu.com/download/cloud/install-ubuntu-openstack) which I
 found a bit lacking in detail.
 "
@@ -524,5 +525,3 @@ reasons, just abort the installation in Landscape and start it again.
   [UbuntuOpenStack]: http://www.ubuntu.com/download/cloud/install-ubuntu-openstack
   [NestedKVM]: http://docs.openstack.org/developer/devstack/guides/devstack-with-nested-kvm.html
   [cattle]: http://jturgasen.github.io/2014/10/25/pets-vs-cattle/
-
-# vim: set tw=79 formatoptions+=t filetype=markdown:
