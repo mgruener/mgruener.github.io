@@ -459,16 +459,16 @@ Troubleshooting
 Although the whole process is highly automated, it is still a very complex
 process so here are tips for troubleshooting. 
 
-*Problem:* openstack-install returns "Previous installation detected." and
+**Problem:** openstack-install returns "Previous installation detected." and
 will not start
 
-*Solution:* delete ~/.cloud-install/ and kill all juju processes (sudo killall
+**Solution:** delete ~/.cloud-install/ and kill all juju processes (sudo killall
 juju)
 
-*Problem:* openstack-install seems to hang. The timer still counts up but
+**Problem:** openstack-install seems to hang. The timer still counts up but
 nothing else happens and the VMs seem to be inactive.
 
-*Solution:* Debug juju container
+**Solution:** Debug juju container
 On the deploy VM:
 
 ~~~bash
@@ -488,9 +488,9 @@ like this are a wrong DNS configuration (check /etc/resolv.conf in an affected
 container), not enough disk space or not enough free leases in the DHCP pool
 (check the dhcp log on the deploy VM).
 
-*Problem:* the OpenStack installation performed by Landscape seems to hang
+**Problem:** the OpenStack installation performed by Landscape seems to hang
 
-*Solution:* Debug juju
+**Solution:** Debug juju
 This one is very similar to the previous problem but involves a few more
 steps.
 
@@ -510,7 +510,6 @@ container, use
 ~~~bash
 juju ssh <container>
 ~~~
-
 
 Common causes for a problem like this are a wrong DNS configuration (check
 /etc/resolv.conf in an affected container), not enough disk space or not
