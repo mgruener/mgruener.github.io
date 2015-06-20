@@ -18,7 +18,7 @@ Automating Puppet Testing - A Step-by-Step Guide
 
 [![Build Status](https://travis-ci.org/Millenux/puppet-testguide.png?branch=master)](https://travis-ci.org/Millenux/puppet-testguide)
 
- So you want to develop a puppet module and want to use all these nice tools
+So you want to develop a puppet module and want to use all these nice tools
 like GitHub (version control / collaboration), Travis CI (continuous
 integration) and puppet-rspec (unit testing for puppet code).
 
