@@ -1,4 +1,5 @@
 markdown: redcarpet
+highlightet: pygments
 permalink: /blog/:year/:title/
 relative_permalinks: true
 exclude:
